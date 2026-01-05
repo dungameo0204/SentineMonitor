@@ -1,0 +1,23 @@
+# Bỏ qua thư mục build (Rất quan trọng)
+build/
+cmake-build-*/
+debug/
+release/
+
+# Bỏ qua file cấu hình riêng của Qt Creator
+*.user
+CMakeLists.txt.user
+
+# Bỏ qua Database thật (Dữ liệu người dùng không được public)
+*.db
+*.sqlite
+
+# Bỏ qua file chạy (.exe) và file tạm
+*.exe
+*.dll
+*.o
+*.obj
+
+# Bỏ qua các file rác hệ thống
+.DS_Store
+Thumbs.db
